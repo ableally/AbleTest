@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>AbleTest </title>
+  <link rel="shortcut icon" href="image/favicon.png" type="image/x-icon">
+  <!-- Bootstrap , fonts & icons  -->
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <link rel="stylesheet" href="./fonts/icon-font/css/style.css">
+  <link rel="stylesheet" href="./fonts/typography-font/typo.css">
+  <link rel="stylesheet" href="./fonts/fontawesome-5/css/all.css">
+  <link href="https://fonts.googleapis.com/css2?family=Karla:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <!-- Plugin'stylesheets  -->
+  <link rel="stylesheet" href="./plugins/aos/aos.min.css">
+  <link rel="stylesheet" href="./plugins/slick/slick.min.css">
+  <!-- Vendor stylesheets  -->
+  <link rel="stylesheet" href="./css/main.css">
+  <!-- Custom stylesheet -->
+</head>
+
+<body data-theme-mode-panel-active data-theme="light" style="font-family: 'Mazzard H';">
+  <div class="site-wrapper overflow-hidden position-relative">
+    <!-- Site Header -->
+    <!-- Preloader -->
+    <!-- <div id="loading">
+    <div class="preloader">
+     <img src="./image/preloader.gif" alt="preloader">
+   </div>
+   </div>    -->
+    <!--Site Header Area -->
+    <header class="site-header site-header--menu-left landing-11-menu site-header--absolute site-header--sticky">
+      <div class="container">
+        <nav class="navbar site-navbar">
+          <!-- Brand Logo-->
+          <div class="brand-logo">
+            <a href="#">
+              <!-- light version logo (logo must be black)-->
+              <img src="image/logo/logo-black.png" alt="" class="light-version-logo" style="width: 100px;">
+              <!-- Dark version logo (logo must be White)-->
+              <img src="image/logo/logo-white.png" alt="" class="dark-version-logo" >
+            </a>
+          </div>
+          <div class="menu-block-wrapper">
+            <div class="menu-overlay"></div>
+            <nav class="menu-block" id="append-menu-header">
+              <div class="mobile-menu-head">
+                <div class="go-back">
+                  <i class="fa fa-angle-left"></i>
+                </div>
+                <div class="current-menu-title"></div>
+                <div class="mobile-menu-close">&times;</div>
+              </div>
+              <ul class="site-menu-main">
+                <li class="nav-item nav-item-has-children">
+                  <a href="#" class="nav-link-item drop-trigger">Dropdowns <i class="fas fa-angle-down"></i>
+                  </a>
+                  <ul class="sub-menu" id="submenu-9">
+                    <li class="sub-menu--item">
+                      <a href="#">Dropdown 01</a>
+                    </li>
+                    <li class="sub-menu--item">
+                      <a href="#">Dropdown 02</a>
+                    </li>
+                    <li class="sub-menu--item">
+                      <a href="#">Dropdown 03</a>
+                    </li>
+                    <li class="sub-menu--item">
+                      <a href="#">Dropdown 04</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link-item">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a href="https://uxtheme.net/product-support/" class="nav-link-item">Support</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="header-btns  header-btn-l11 ms-auto d-none d-xs-inline-flex align-items-center">
+            <a class="btn log-in-btn focus-reset" href="#">
+             Back
+            </a>
+            <a class="download-trail-btn btn focus-reset" href="#">
+              Take Test
+            </a>
+          </div>
+          <!-- mobile menu trigger -->
+          <div class="mobile-menu-trigger">
+            <span></span>
+          </div>
+          <!--/.Mobile Menu Hamburger Ends-->
+        </nav>
+      </div>
+    </header>
+    <!-- navbar- -->
+    <!-- Hero Area -->
+    <div class="hero-area-l11 position-relative z-index-1 overflow-hidden">
+      <div class="container position-relative">
+        <div class="row position-relative justify-content-center">
+          <div class="col-xl-8 col-lg-9 col-md-12 order-lg-1 order-1" data-aos="fade-up" data-aos-duration="500" data-aos-once="true">
+            <div class="content">
+              <!-- <h1>Landing page<br class="d-none d-md-block"> built for software.</h1> -->
+              <h1>Take Charge of <br> Your Life's Most Important Decision </h1>
+
+              <div class="row banner-l-11-bottom-content">
+                <div class="col-lg-8 col-md-8 col-sm-10">
+                  <p class="position-relative banner-main-content-l-11">Do you keep wondering if the career path you have chosen is right for you? 
+                    <br>Take the test now!
+                    <span class="line-left-content"></span>
+                  </p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 flex-y-center ">
+                  <a class="btn l-11-hero-btn" href="#">Take Test</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-9 order-lg-1 order-0" data-aos="fade-up" data-aos-duration="800" data-aos-once="true">
+            <img src="image/l2/laptop-screen.png" alt="" class="w-100 hero-l11-main-image">
+          </div>
+        </div>
+      </div>
+      <div class="hero-shape-l11-1 d-none d-md-block">
+        <img src="./image/l2/hero-shape-1.svg" alt="">
+      </div>
+      <div class="hero-shape-l11-2 d-none d-md-block">
+        <img src="./image/l2/hero-shape-2.png" alt="">
+      </div>
+    </div>
+    <!-- Brand-area -->
+    <!-- <div class="brand-area-l11">
+      <div class="container">
+        <div class="row img-grayscale">
+          <div class="col-lg-12" data-aos="fade-up" data-aos-duration="800" data-aos-once="true">
+            <div class="brand-logos d-flex justify-content-center justify-content-xl-between align-items-center flex-wrap ">
+              <div class="single-brand">
+                <img src="image/l2/brand-logo.svg" alt="">
+              </div>
+              <div class="single-brand">
+                <img src="image/l2/brand-logo-1.svg" alt="">
+              </div>
+              <div class="single-brand">
+                <img src="image/l2/brand-logo-2.svg" alt="">
+              </div>
+              <div class="single-brand">
+                <img src="image/l2/brand-logo-3.svg" alt="">
+              </div>
+              <div class="single-brand">
+                <img src="image/l2/brand-logo-4.svg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <!-- Content Area-1 -->
+    <div class="content-area-l-11-1">
+      <div class="container">
+        <div class="row align-items-center justify-content-lg-start justify-content-center">
+          <div class="col-xl-6 col-md-5 col-md-10" data-aos="fade-right" data-aos-duration="800" data-aos-once="true">
+            <div class="content-img position-relative z-index-1">
+              <img src="image/l2/content-img1.png" alt="" class="w-100">
+            </div>
+          </div>
+          <div class="offset-xxl-1 col-xxl-5 col-xl-6 col-lg-7 col-md-9" data-aos="fade-left" data-aos-duration="800" data-aos-once="true">
+            <div class="content section-heading-5">
+              <h2>
+                Shake The Social Dilemma of Falling into Peer Pressure
+              </h2>
+              <p>
+                Do you see your peers, mentors and seniors getting success and wonder what that has to do with their degree, or lack thereof? Are your parents (or seniors) influencing your career decisions? Do you keep wondering if the career path you have chosen is right for you?
+                .</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Content Area-2  -->
+    <div class="content-area-l-11-2">
+      <div class="container">
+        <div class="row align-items-center justify-content-lg-between justify-content-center">
+          <div class="offset-xxl-1 col-xxl-5 col-xl-6 col-lg-7 col-md-9" data-aos="fade-right" data-aos-duration="800" data-aos-once="true">
+            <div class="content section-heading-5">
+              <p>You will spend two-thirds of your adult life at work. You won’t want others to tell you what you should (or should not) do in life. Our personality-based AbleTest helps you discover where you belong in today's dynamic environment and make the right career move.
+
+              </p>
+
+              <!-- <h2>
+                Completely Free for Everyone.
+              </h2> -->
+              <!-- <div class="d-flex content-l-11-3-card">
+                <div class="content-body">
+                </div>
+              </div> -->
+              <div class="d-flex content-l-11-3-card">
+                <!-- <img src="image/l2/settings.svg" alt="icon"> -->
+                <!-- <div class="content-body">
+                  <h5>Built for real users</h5>
+                  <p>Editing and customizing Essential Landing is easy and fast.</p>
+                </div> -->
+              </div>
+            </div>
+          </div>
+          <div class="col-xxl-6 offset-xxl-2 col-xl-6 col-lg-5 col-md-9 order-lg-1 order-0" data-aos="fade-left" data-aos-duration="800" data-aos-once="true">
+            <div class="content-img">
+              <img src="image/l2/content-img2.png" alt="" class="w-lg-auto w-100">
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Content Area -->
+    <div class="content-area-l-11-3 position-relative">
+      <div class="container">
+        <div class="row align-items-center justify-content-center justify-content-lg-start">
+          <div class="col-xl-6 col-lg-6 col-md-8 order-lg-1 order-0" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
+            <div class="content-img">
+              <img src="image/l2/content-img3.png" alt="" class="w-100">
+            </div>
+          </div>
+          <div class="offset-xl-1 col-xl-5 col-lg-6 col-md-9 order-lg-1 order-1" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
+            <div class="content section-heading-5">
+              <h2>Building The Right Ecosystem to Excel Professionally.</h2>
+              <p>At AbleAlly, we bring together the best of behavioral science, industry demand and social validation to help you realize your full potential.  </p>
+              <ul class="list-unstyled pl-0">
+                <li class="d-flex align-items-center">
+                  <i class="fas fa-check"></i>Unlimited design possibility
+                </li>
+                <li class="d-flex align-items-center">
+                  <i class="fas fa-check"></i>Completely responsive
+                </li>
+                <li class="d-flex align-items-center">
+                  <i class="fas fa-check"></i>Easy to customize
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Feature Area -->
+    <div class="feature-l-11">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-xl-9 px-lg-12 col-md-12">
+            <div class="row justify-content-center">
+              <div class="col-lg-10 text-center">
+                <div class="section-heading-5">
+                  <h2>
+                    One Test, Many Answers
+                  </h2>
+                  <p>AbleAlly’s AbleTest powered by the Big 5 personality model identifies the best career path that suits your personality. Together, we shaped the new standard.</p>
+                </div>
+              </div>
+            </div>
+            <div class="row feature-l-11-items justify-content-center">
+              <div class="col-md-6" data-aos="fade-right" data-aos-duration="800" data-aos-once="true">
+                <div class="d-flex ">
+                  <div class="icon-box">
+                    <i class="icon icon-pen-01"></i>
+                  </div>
+                  <div class="content-body">
+                    <h5>Entreprenuer</h5>
+                    <p>Whether it’s a small internal app or a new for millions of customers, our design and
+                      development teams.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6" data-aos="fade-left" data-aos-duration="800" data-aos-once="true">
+                <div class="d-flex ">
+                  <div class="icon-box">
+                    <i class="icon icon-layers-3"></i>
+                  </div>
+                  <div class="content-body">
+                    <h5>Intrapraneur</h5>
+                    <p>Whether it’s a small internal app or a new for millions of customers, our design and
+                      development teams.</p>
+                  </div>
+                </div>
+              </div>
+              <!-- <div class="col-md-6" data-aos="fade-right" data-aos-duration="1000" data-aos-once="true">
+                <div class="d-flex ">
+                  <div class="icon-box">
+                    <i class="icon icon-office"></i>
+                  </div>
+                  <div class="content-body">
+                    <h5>100% Responsive</h5>
+                    <p>Whether it’s a small internal app or a new for millions of customers, our design and
+                      development teams.</p>
+                  </div>
+                </div>
+              </div> -->
+              <!-- <div class="col-md-6" data-aos="fade-left" data-aos-duration="1000" data-aos-once="true">
+                <div class="d-flex ">
+                  <div class="icon-box">
+                    <i class="icon icon-book-open-2"></i>
+                  </div>
+                  <div class="content-body">
+                    <h5>Rich Documentation</h5>
+                    <p>Whether it’s a small internal app or a new for millions of customers, our design and
+                      development teams.</p>
+                  </div>
+                </div>
+              </div> -->
+              <!-- <div class="col-md-6" data-aos="fade-right" data-aos-duration="1200" data-aos-once="true">
+                <div class="d-flex ">
+                  <div class="icon-box">
+                    <i class="icon icon-pen-01"></i>
+                  </div>
+                  <div class="content-body">
+                    <h5>50+ Ready Pages</h5>
+                    <p>Whether it’s a small internal app or a new for millions of customers, our design and
+                      development teams.</p>
+                  </div>
+                </div>
+              </div> -->
+              <!-- <div class="col-md-6" data-aos="fade-left" data-aos-duration="1200" data-aos-once="true">
+                <div class="d-flex ">
+                  <div class="icon-box">
+                    <i class="icon icon-settings-gear-64-2"></i>
+                  </div>
+                  <div class="content-body">
+                    <h5>Quick Setup</h5>
+                    <p>Whether it’s a small internal app or a new for millions of customers, our design and
+                      development teams.</p>
+                  </div>
+                </div>
+              </div> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Testimonial Section -->
+    <div class="testimonial-area-l-11">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-xl-7 col-lg-9" data-aos="fade-down" data-aos-duration="800" data-aos-once="true">
+            <div class="section-heading-5 text-center">
+              <h2>
+                200+ Individual Tested
+              </h2>
+              <p>We designed and tested prototypes that helped
+                identify pain points in the account creation process. Together, we shaped the new standard.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center" data-aos="fade-up" data-aos-duration="800" data-aos-once="true">
+          <div class="col-xl-10 col-lg-12 col-md-10">
+            <div class="testimonial-slider-l-11 position-relative">
+              <div class="single-slide focus-reset">
+                <div class="testimonial-card">
+                  <p>
+                    <span class="d-inline-block quote-size-1">“</span> You made it so simple. My new site is
+                    so much faster
+                    and easier to work with than my old site. I just choose the page, make the change and
+                    click save. Thanks, guys!”
+                  </p>
+                  <div class="d-flex user-details align-items-center">
+                    <div class="customer-img">
+                      <img src="image/l2/client-img-2.png" alt="">
+                    </div>
+                    <div class="user-identity">
+                      <h5>Sallie Lawson</h5>
+                      <span>Founder of Crips</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="single-slide focus-reset">
+                <div class="testimonial-card">
+                  <p>
+                    <span class="d-inline-block quote-size-1">“</span> You made it so simple. My new site is
+                    so much faster
+                    and easier to work with than my old site. I just choose the page, make the change and
+                    click save. Thanks, guys!”
+                  </p>
+                  <div class="d-flex user-details  align-items-center">
+                    <div class="customer-img">
+                      <img src="image/l2/client-img-1.png" alt="">
+                    </div>
+                    <div class="user-identity">
+                      <h5>Ella Brooks</h5>
+                      <span>Founder of Crips</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="single-slide focus-reset">
+                <div class="testimonial-card rounded">
+                  <p>
+                    <span class="d-inline-block quote-size-1">“</span> You made it so simple. My new site is
+                    so much faster
+                    and easier to work with than my old site. I just choose the page, make the change and
+                    click save. Thanks, guys!”
+                  </p>
+                  <div class="d-flex user-details  align-items-center">
+                    <div class="customer-img">
+                      <img src="image/l2/client-img-2.png" alt="">
+                    </div>
+                    <div class="user-identity">
+                      <h5>Sallie Lawson</h5>
+                      <span>Founder of Crips</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Newsletter-area start -->
+    <div class="newsletter-l-11">
+      <div class="container">
+        <div class="row justify-content-center news-l-11-main-bg position-relative">
+          <div class="news-l-11-second-bg w-100 h-100"></div>
+          <div class="col-xxl-6 col-xl-7 col-lg-8 col-md-11" data-aos="fade-up" data-aos-duration="800" data-aos-once="true">
+            <div class="content text-center">
+              <h5>Try our free software!</h5>
+              <h2>Try our free software!</h2>
+              <p>We designed and tested prototypes that helped identify pain points in the account creation
+                process. Together, we shaped the new standard.</p>
+              <div class="btn-area">
+                <a href="#" class="btn"><i class="fas fa-download d-inline-block"></i> Download Free Trial</a>
+              </div>
+              <span>No credit card required</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer Area -->
+    <footer class="footer-l-11 text-center text-md-start">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="footer-logo-l-11">
+              <a href="#"><img src="image/logo/logo-black.png" alt="logo" style="width: 150px;"></a>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="footer-widget-l-11">
+              <ul class="pl-0 list-unstyled d-flex flex-wrap justify-content-center align-items-end ">
+                <li class="d-flex"><a href="">About</a></li>
+                <li class="d-flex"><a href="">Features</a></li>
+                <li class="d-flex"><a href="">Works</a></li>
+                <li class="d-flex"><a href="">Career</a></li>
+                <li class="d-flex"><a href="">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="social-icons-l-11">
+              <ul class="pl-0 list-unstyled d-flex  justify-content-center justify-content-md-end align-items-end ">
+                <li class="d-flex flex-column justify-content-center"><a href="#"><i
+                                    class="fab fa-twitter"></i></a></li>
+                <li class="d-flex flex-column justify-content-center"><a href="#"><i
+                                    class="fab fa-facebook-f"></i></a></li>
+                <li class="d-flex flex-column justify-content-center"><a href="#"><i
+                                    class="fab fa-google"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="copyright-area-l-11">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="text-center">
+              <p>© AbleAlly 2021 All right reserved. </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Vendor Scripts -->
+  <script src="js/vendor.min.js"></script>
+  <!-- Plugin's Scripts -->
+  <script src="./plugins/aos/aos.min.js"></script>
+  <script src="./plugins/slick/slick.min.js"></script>
+  <script src="./plugins/menu/menu.js"></script>
+  <!-- Activation Script -->
+  <script src="js/custom.js"></script>
+</body>
+
+</html>
